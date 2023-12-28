@@ -267,7 +267,7 @@ background-repeat: no-repeat;
 
 
 .round-platter img{
-  overflow: hidden;
+  overflow: inherit;
   animation: spin 20s linear infinite;
   transform-origin: center center; 
 }
@@ -2261,7 +2261,7 @@ background-repeat: no-repeat;
 
   /* Hero CSS */
   .hero .row{
-    padding: 70px 0;
+    padding: 50px 0;
   }
 
   .hero .row p {
@@ -2283,7 +2283,7 @@ background-repeat: no-repeat;
 
 
 .hero .round-platter img {
-  width: 190px;
+  width: 180px;
 }
   
 

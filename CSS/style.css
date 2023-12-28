@@ -2294,13 +2294,14 @@ background-repeat: no-repeat;
 
   /* Features CSS */
   .features{
-    padding:20px 0 0 0;
+    padding:40px 0 20px 0;
     
   }
 
   
   .features .hr-line{
     margin-top: -8px;
+    margin-bottom: 64px;
   }
   
     /*--feature-item start--*/
@@ -2310,7 +2311,7 @@ background-repeat: no-repeat;
     }
     .feature-item h3{
       margin-top: 2px;
-      margin-bottom: 5px;
+      margin-bottom: -1px;
     }
 
     .feature-item{
@@ -2349,7 +2350,7 @@ background-repeat: no-repeat;
 
 /* Menu CSS */
 .menu{
-  padding: 20px 0 0 0;
+  padding: 40px 0 20px 0;
 }
 
 
@@ -2456,7 +2457,7 @@ background-repeat: no-repeat;
 
 .about .hr-line{
   margin-top: -8px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .about-head{
@@ -2512,7 +2513,7 @@ background-repeat: no-repeat;
 }
 
 .testimonial-head .heading{
-  padding: 20px 0 0 0;
+  padding: 40px 0 0 0;
   margin-bottom: 5px !important;
 }
 
@@ -2521,12 +2522,17 @@ background-repeat: no-repeat;
   padding-bottom: 30px;
 }
 
+.testimonial .row>*{
+  width: auto;
+}
+
 .testimonial .carousel-item{
   height: 120px;
 }
 
 .user img{
-  width: 120px;
+  width: 90px;
+  margin-right: 10px;
 }
 
 .testimonial-details {
@@ -2545,7 +2551,7 @@ background-repeat: no-repeat;
 
 .testimonial-details p{
   padding-top: 5px;
-  width: 270px;
+  width: 320px;
   margin-bottom: 0;
 }
 
@@ -2574,7 +2580,7 @@ background-repeat: no-repeat;
 
 /* Gallery CSS*/
 .gallery{
-  padding: 20px 0 20px 0;
+  padding: 40px 0 20px 0;
 }
 
 .gallery .heading {
@@ -2768,7 +2774,7 @@ background-repeat: no-repeat;
 /* Chefs CSS */
 
 .chef-section{
-  padding: 20px 0;
+  padding: 40px 0 20px 0;
 }
 
 .chef-section .hr-line {
@@ -2827,9 +2833,12 @@ background-repeat: no-repeat;
 
 /*Contact us CSS */
 .contact{
-  padding: 5px 0 20px 0;
+  padding: 5px 0 40px 0;
 }
 
+.contact .hr-line{
+  margin-bottom: 5px;
+}
 
 .contact-inner .address .address-inner{
   padding:12px 20px;
@@ -2867,11 +2876,11 @@ background-repeat: no-repeat;
 }
 
 .footer .footer-details .footer-logo {
-  gap: 2px;
-  margin-left: 0;
+  gap: 10px;
+  margin-left: 15px;
 }
 .footer-logo-text {
-  padding-left: 4px;
+  padding-left: 10px;
   border-left: 3px solid #eaf4ff;
 }
 
@@ -2880,9 +2889,14 @@ background-repeat: no-repeat;
 }
 
 .q-links, .follow-us, .follow-icon {
-  margin-left: 35px ;
+  margin-left: 15px ;
+  margin-top: 20px;
 }
 
+
+.footer-links ul{
+  margin-top: -8px;
+}
 
 .footer-links ul li a{
   font-size: 8px;

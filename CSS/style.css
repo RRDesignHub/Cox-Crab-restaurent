@@ -265,9 +265,12 @@ background-repeat: no-repeat;
   border-radius: 40px !important;
 }
 
+.round-platter{
+  overflow: hidden;
+}
+
 
 .round-platter img{
-  overflow: overlay;
   animation: spin 20s linear infinite;
   transform-origin: center center; 
 }

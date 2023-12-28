@@ -267,7 +267,7 @@ background-repeat: no-repeat;
 
 
 .round-platter img{
-  
+  overflow: hidden;
   animation: spin 20s linear infinite;
   transform-origin: center center; 
 }

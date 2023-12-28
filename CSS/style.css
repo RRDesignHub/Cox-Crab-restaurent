@@ -2306,8 +2306,7 @@ background-repeat: no-repeat;
   
     /*--feature-item start--*/
     .feature-head{
-      background: #eaf4ff;
-      padding: 20px 15px;
+      padding: 5px 0;
     }
     .feature-item h3{
       margin-top: 2px;
@@ -2315,6 +2314,7 @@ background-repeat: no-repeat;
     }
 
     .feature-item{
+      width: 210px;
       margin-top: 0;
       padding-top: 15px;
     }
@@ -2456,8 +2456,8 @@ background-repeat: no-repeat;
 }
 
 .about .hr-line{
-  margin-top: -8px;
-  margin-bottom: 5px;
+  margin-top: -6px;
+  margin-bottom: 8px;
 }
 
 .about-head{
@@ -2470,6 +2470,12 @@ background-repeat: no-repeat;
   margin-top: 10px;
   padding: 0 20px ;
 }
+
+.about-inner {
+  padding: 18px 0;
+}
+
+
 
 .about-inner p{
   padding: 0 20px 0 20px;
@@ -2589,7 +2595,7 @@ background-repeat: no-repeat;
 }
 
 .gallery .hr-line {
-  margin-top: -8px;
+  margin-top: -6px;
   margin-bottom: 0;
   padding: 0;
 }
@@ -2602,6 +2608,7 @@ background-repeat: no-repeat;
 .gallery .item-menu ul{
   margin-bottom: 0;
   padding-bottom: 5px;
+  padding-left: 0;
 }
 
 
@@ -2619,7 +2626,11 @@ background-repeat: no-repeat;
 }
 
 .item_details {
-  margin-left: -1rem;
+  margin-left: 0.5rem;
+}
+
+.item_details>.row>*{
+  width: 210px;
 }
 
 
@@ -2630,9 +2641,9 @@ background-repeat: no-repeat;
 .overlay {
   position: absolute;
   top: 0;
-  left: 0.77rem;
-  height: 297px;
-  width: 445px;
+  left: 0.75rem;
+  height: 120px;
+  width: 180px;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: all .3s ease-in-out;
@@ -2645,14 +2656,18 @@ background-repeat: no-repeat;
 
 .overlay .overlay-text {
   color: #eaf4ff;
-  font-size: 23px;
-  padding-bottom: 20px;
+  font-size: 9px;
+  padding-bottom: 5px;
+}
+
+.overlay .overlay-btn {
+  margin-top: 0;
 }
 
 .overlay .overlay-btn a {
-  font-size: 23px;
+  font-size: 9px;
   text-decoration: none;
-  padding: 8px 14px;
+  padding: 5px 10px;
   background-color: #001735;
   color: #eaf4ff;
   border-radius: 4px;
@@ -2680,8 +2695,13 @@ background-repeat: no-repeat;
 }
 
 .reserv-inner h3 {
-  font-size: 23px;
+  font-size: 20px;
   margin-bottom: 15px;
+}
+
+.reserv-inner>.container>.row>*{
+  width: 330px;
+  margin-left: 35px;
 }
 
 .form-floating input, .form-label input, .form-label select, .form-floating textarea{
@@ -2761,7 +2781,7 @@ background-repeat: no-repeat;
 
 .book-btn {
   margin-top: 10px;
-  padding: 7px 10px;
+  padding: 4px 10px;
   font-size: 12px;
   border-radius: 2px !important;
 }
@@ -2778,7 +2798,7 @@ background-repeat: no-repeat;
 }
 
 .chef-section .hr-line {
-  margin-top: -8px;
+  margin-top: -6px;
   margin-bottom: 10px;
 }
 
@@ -2837,7 +2857,8 @@ background-repeat: no-repeat;
 }
 
 .contact .hr-line{
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: -6px;
 }
 
 .contact-inner .address .address-inner{
@@ -2879,10 +2900,24 @@ background-repeat: no-repeat;
   gap: 10px;
   margin-left: 15px;
 }
+
+
+.footer .footer-details {
+  padding: 30px 0 40px 0;
+}
+
+
+
 .footer-logo-text {
   padding-left: 10px;
   border-left: 3px solid #eaf4ff;
 }
+
+.footer-details .row .col-lg-4{
+  margin-bottom: 25px;
+  margin-left: 35px;
+}
+
 
 .follow-us h4, .q-link-head h4{
   padding: 0;
@@ -2890,29 +2925,31 @@ background-repeat: no-repeat;
 
 .q-links, .follow-us, .follow-icon {
   margin-left: 15px ;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
-
-.footer-links ul{
-  margin-top: -8px;
+.follow-icon{
+  position: absolute;
+  top: 14px;
 }
+
 
 .footer-links ul li a{
   font-size: 8px;
 }
 
 .footer-links ul li {
-  margin-top: -10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .follow-icon ul li a {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .follow-icon ul {
   gap: 8px;
-  padding-top: 5px;
+  padding-top: 0;
 }
 
 .copyright-inner .copyright-text span {

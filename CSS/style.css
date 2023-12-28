@@ -1880,6 +1880,7 @@ background-repeat: no-repeat;
 
   .hero .round-platter img{
     width: 300px !important;
+    overflow: hidden;
   }
 
 

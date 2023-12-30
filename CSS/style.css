@@ -3200,12 +3200,22 @@ padding: 50px 0 20px 0;
 
 
 /*menu */
+.menu{
+  padding: 0;
+}
+
 
 .menu .heading {
   border-bottom: 1px solid #0a4591;
 }
 
+.breakfast, .lunch, .dinner, .snaks, .beverage{
+  margin-top: 0 !important;
+}
 
+.breakfast-head, .lunch-head, .dinner-head, .snaks-head, .beverage-head{
+  margin-bottom: 20px;
+}
 
 .breakfast .btn, .lunch .btn, .dinner .btn, .snaks .btn, .beverage .btn{
   font-size: 6px;
@@ -3214,21 +3224,24 @@ padding: 50px 0 20px 0;
 }
 
 
-.breakfast>div, .lunch>div, .dinner>div, .snaks>div, .beverage>div{
-  margin-bottom: -8px;
-}
+
 
 .breakfast .row>*, .lunch .row>*, .dinner .row>*, .snaks .row>*, .beverage .row>*{
   width: auto;
 }
 
 .items-inner{
-  margin-top: 90px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
 
-.menu-items .items-details{
+.menu .menu-items{
+  padding-bottom: 20px;
+  margin-bottom: -8px;
+}
+
+.menu .menu-items .items-inner .items-details{
   height: 150px;
     width: 130px;
     padding-top: 75px;
@@ -3241,17 +3254,17 @@ padding: 50px 0 20px 0;
   margin: 0.1rem;
 }
 
-.menu-items .items-details h4 {
+.menu .menu-items .items-inner .items-details h4 {
   padding-left: 15px;
   margin-bottom: 0;
 }
 
-.menu-items .items-details p {
+.menu .menu-items .items-inner .items-details p {
   padding-left: 15px;
   margin-bottom: 12px;
 }
 
-.menu-items .items-details .cta-btn h5 {
+.menu .menu-items .items-inner .items-details .cta-btn h5 {
   padding-top: 12px;
 }
 
@@ -3259,13 +3272,84 @@ padding: 50px 0 20px 0;
   padding: 0 15px;
 }
 
-.menu-items .items-details .cta-btn button {
+.menu .menu-items .items-inner .items-details .cta-btn button {
   font-size: 6px !important;
   padding: 4px 6px !important;
 }
 
 
+/*About*/
+.about {
+  padding: 0 0 20px 0;
+}
 
+.about .heading {
+  border-bottom: 1px solid #0a4591;
+  padding-bottom: 0;
+}
+
+.about .hr-line {
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+.about-head {
+  font-size: 20px !important;
+}
+
+.about .about-inner{
+  padding: 10px;
+}
+
+.about .about-inner p{
+  margin-bottom: 5px;
+}
+
+.about .about-inner .fact .number{
+  margin-right: 10px;
+}
+
+.about .about-inner .fact .number h3 {
+  font-size: 20px;
+  border-left: 2px solid #032d63;
+  padding-left: 3px;
+  margin-bottom: 0;
+}
+
+.fact-inner-left, .fact-inner-right{
+  align-items: normal;
+}
+
+.about .about-inner .more-btn {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.about .about-inner .more-btn a{
+  padding: 3px 5px;
+  font-size: 10px;
+}
+
+.top-right-img, .bottom-left-img {
+  width: 100px;
+}
+
+.bottom-left-img {
+  margin-right: -1.6rem;
+}
+
+.top-right-img {
+  margin-left: -1.6rem;
+  margin-top: 1.1rem;
+}
+
+
+
+/*testimonial*/
+.testimonial-head .heading {
+  border-bottom: 1px solid #0a4591;
+  padding-bottom: 0;
+}
 
 
 

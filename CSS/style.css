@@ -2975,104 +2975,307 @@ background-repeat: no-repeat;
 
 
 
-/*---responsive for extra-large screen---*/
-/*
+/*---responsive for mobile screen---*/
 
-@media screen and (min-width:1400px) {
+@media screen and (max-width:399px){
+  .container{
+    max-width: 340px;
+  }
 
-  
+
   h1{
-    
+    font-size: 16px;
   }
 
   h2{
-    font-size: 55px;
+    font-size: 12px;
   }
 
+
   h3{
-    font-size: 33px;
+    font-size: 10px;
   }
 
   h4{
-    font-size: 25px;
+    font-size: 9px;
   }
 
   h5{
-    font-size: 20px;
+    font-size: 7px;
   }
 
+  h6{
+    font-size: 5px;
+  }
 
   p{
-    font-size: 16px;
+    font-size: 5px;
   }
 
 
 
-
- 
-  nav .navbar-nav .nav-item .nav-link{
-    font-size: 17px;
-    
+  .navbar-brand{
+    padding-top: 1px;
+    padding-bottom: 4px;
   }
 
- 
-  .breakfast, .lunch, .dinner, .beverage, .snaks{
-    padding: 70px 0;
-  }
-
-  .breakfast h3, .lunch h3, .dinner h3, .beverage h3, .snaks h3{
-    position: relative;
-    display: block;
-    margin-top: 10px;
-    color: #eaf4ff;
-  }
-
-  .breakfast .btn, .lunch .btn{
-    font-size: 16px;
-    }
-  
-
-   .menu-items{
-    margin-top: 150px;
-  }
-
- .menu-items .items-details{
-    height: 310px;
-    width: 290px;
-    padding-top: 160px;
-  }
-  .menu-items .items-details h4{
-    padding-left: 35px;
-    margin-bottom: 0;
-  }
-
-  .menu-items .items-details p{
-    padding-left: 35px;
-  }
-
-  .menu-items .cta-btn{
-    padding: 0 35px;
-  }
-
-  .menu-items .items-details .cta-btn h5{
-    padding-top: 17px;
-  }
-
-  .menu-items .items-details .cta-btn button{
-    font-size: 16px !important;
-    padding: 6px 8px !important;
+  .navbar-brand img{/*--logo--*/
+    width: 18px;
   }
 
 
-  .menu-items .items-inner img{
-    height: 260px;
-    top:-140px;
-    margin: 0.8rem;
+  .navbar-nav .nav-item .nav-link::after, .navbar-nav .nav-item .nav-link::before,.dropdown button::after, .dropdown button::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    background: #b6d6fd;
+    transition: all 0.4s ease-in-out;
   }
 
- 
+
+  .dropdown_menu li a {
+    font-size: 6px;
+    padding: 3px 5px;
 }
 
-*/
+.dropdown_menu{
+  top: 8px;
+  left: 27%;
+  width: 50px;
+  padding: 0;
+  padding-top: 11px;
+}
 
-/*---responsive for extra-large screen end---*/
+.dropdown_menu--animated li{
+  font-size: 6px;
+}
+
+  .navbar-nav{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0 !important;
+  }
+
+  .navbarNav{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center; 
+    
+}
+.dropdown button{
+  font-size: 6px;
+    margin-left: 7px;
+}
+  
+
+  nav .navbar-nav .nav-item .nav-link {
+    font-size: 6px;
+    margin-left: 7px;
+    padding: 0;
+  }
+
+  .nav-btn{
+    display: flex;
+    align-items: center;
+    text-align: right;
+  }
+
+  .nav-btn a{
+    font-size: 6px;
+    padding: 2px 3px;
+    background-color: #eaf4ff;
+    color: #001735;
+    border-radius: 1px;
+    transition: .5s;
+    margin-left:7px;
+  }
+
+
+  .navbar-toggler{
+    height: 14px;
+    width: 16px;
+    background-color: #eaf4ff;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 7px;
+    border-radius: 1px;
+
+  }
+
+  .navbar-toggler:focus, .navbar-toggler:active{
+    box-shadow: none;
+  }
+
+  .navbar-toggler .navbar-toggler-icon{
+    font-size: 8px;
+    margin-bottom: 16px;
+    margin-left: -1px;
+  }
+
+
+
+
+/*hero*/
+.hero .row{
+
+padding: 50px 0 20px 0;
+
+}
+.hero .row h1{
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.hero .row p {
+  padding: 7px 0;
+  margin-bottom: 0;
+}
+
+.hero .row a {
+  font-size: 6px;
+  padding: 3px 5px;
+  margin-right: 7px;
+}
+
+
+.round-platter img{
+  width: 140px;
+}
+
+
+
+/*features*/
+
+.features {
+  padding: 20px 0;
+}
+
+.features .heading{
+  padding-bottom: 0;
+  border-bottom: 1px solid #0a4591;
+}
+
+.features .hr-line {
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+.feature-head{
+  padding: 5px 8px;
+  margin-top: 0;
+}
+
+.feature-head .feature-item{
+  margin-top: 5px;
+}
+
+
+.feature-icon {
+  font-size: 8px !important;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  border: 2px solid #001735;
+  box-shadow: 0 0 0 2px #ffffff inset;
+}
+
+.feature-item:hover .feature-icon {
+  border: 2px solid black;
+  box-shadow: 0 0 0 2px #ffffff inset;
+}
+
+.feature-item h3 {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.feature-item p {
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+
+/*menu */
+
+.menu .heading {
+  border-bottom: 1px solid #0a4591;
+}
+
+
+
+.breakfast .btn, .lunch .btn, .dinner .btn, .snaks .btn, .beverage .btn{
+  font-size: 6px;
+  padding: 3px 5px;
+  border-radius: 2px !important;
+}
+
+
+.breakfast>div, .lunch>div, .dinner>div, .snaks>div, .beverage>div{
+  margin-bottom: -8px;
+}
+
+.breakfast .row>*, .lunch .row>*, .dinner .row>*, .snaks .row>*, .beverage .row>*{
+  width: auto;
+}
+
+.items-inner{
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-items .items-details{
+  height: 150px;
+    width: 130px;
+    padding-top: 75px;
+}
+
+
+.menu-items .items-inner img{
+  width: 115px;
+  top:-60px;
+  margin: 0.1rem;
+}
+
+.menu-items .items-details h4 {
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.menu-items .items-details p {
+  padding-left: 15px;
+  margin-bottom: 12px;
+}
+
+.menu-items .items-details .cta-btn h5 {
+  padding-top: 12px;
+}
+
+.menu-items .cta-btn {
+  padding: 0 15px;
+}
+
+.menu-items .items-details .cta-btn button {
+  font-size: 6px !important;
+  padding: 4px 6px !important;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/*---responsive for mobile screen end---*/

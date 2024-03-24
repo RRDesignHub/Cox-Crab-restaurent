@@ -2607,7 +2607,7 @@ background-repeat: no-repeat;
   top: 0;
   left: 0.77rem;
   height: 297px;
-  width: 445px;
+  width: 345px;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: all .3s ease-in-out;
@@ -2775,7 +2775,7 @@ background-repeat: no-repeat;
 .hover-effect {
   position: absolute;
   top: 0;
-  left: 76px;
+  left: 25px;
   width: 323px;
   height: 182px;
 }

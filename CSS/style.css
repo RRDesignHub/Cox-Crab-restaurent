@@ -61,11 +61,10 @@ nav .navbar-nav .nav-item .nav-link {
   position: relative;
   display: block;
   font-family: 'Heebo' !important;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   font-weight: 500;
   margin-left: 20px;
- 
 }
 
 
@@ -106,7 +105,7 @@ nav .navbar-nav .nav-item .nav-link {
   border: none;
   display: block;
   font-family: 'Heebo' !important;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   font-weight: 500;
   margin-left: 20px;
@@ -1399,10 +1398,7 @@ background-repeat: no-repeat;
 
 
   /*--Navbar__*/
-  nav .navbar-nav .nav-item .nav-link{
-    font-size: 17px;
-    
-  }
+  
 
   /*--Navbar__*/
   
@@ -1730,9 +1726,9 @@ background-repeat: no-repeat;
 
 
 
-.menu .carousel .carousel-inner .carousel-item .menu-items .items-inner img{
-  width: 191px;
-  top: -10px;
+.menu .carousel .carousel-inner .carousel-item .menu-items .items-inner img {
+  width: 180px;
+  top: -4px;
   right: 15px;
 }
 
@@ -2004,7 +2000,7 @@ background-repeat: no-repeat;
 .hover-effect {
   border-radius: 3px;
   left: 4px;
-  width: 208x;
+  width: 208px;
 }
 
 .hover-effect h6 {
@@ -2098,7 +2094,71 @@ background-repeat: no-repeat;
 }
 
 
+@media  screen and (max-width: 414px) {
+  .menu .carousel .carousel-inner .carousel-item .menu-items .items-inner img {
+    width: 180px;
+    top: -3px;
+    right: 15px;
+}
 
+.overlay {
+  width: 183px;
+}
+
+#input-label label {
+  top: -5px;
+}
+
+.input-icon {
+  font-size: 20px;
+  top: 8px;
+  right: 30px;
+  visibility: hidden;
+}
+
+.hover-effect {
+  width: 200px;
+}
+
+.contact-inner .address .address-inner .address-icon {
+  padding: 0 30px;
+}
+
+.contact-inner .address .address-inner {
+  padding: 15px 10px;
+}
+
+.contact-inner .map iframe {
+  width: 390px;
+  height: 390px;
+}
+  
+}
+
+
+@media screen and (max-width: 390px) {
+  
+  .overlay {
+    width: 171px;
+}
+
+.hover-effect {
+  width: 187px;
+}
+
+.hover-effect {
+  width: 187px;
+}
+
+.contact-inner .address .address-inner .address-icon {
+  padding: 0 30px;
+}
+
+.contact-inner .map iframe {
+  width: 364px;
+  height: 364px;
+}
+}
 
 
 @media screen and (max-width: 375px) {
@@ -2254,9 +2314,6 @@ h5{
 }
 
 
-
-
-
 @media screen and (max-width: 360px) {
   
   h1 {
@@ -2368,4 +2425,32 @@ h5{
 }
 }
 
+
+@media screen and (max-width: 344px) {
+
+  .menu .carousel .carousel-inner .carousel-item .menu-items .items-details {
+    height: 160px;
+    width: 270px;
+    padding-top: 15px;
+}
+.menu .carousel .carousel-inner .carousel-item .menu-items .items-inner img {
+  width: 160px;
+  top: 0px;
+  right: 5px;
+}
+
+.overlay {
+  width: 148px;
+}
+
+.hover-effect {
+  width: 163px;
+}
+
+.contact-inner .map iframe {
+  width: 320px;
+  height: 320px;
+}
+  
+}
 

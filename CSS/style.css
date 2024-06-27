@@ -2109,8 +2109,15 @@ align-items: center;
   height: 400px;
 }
 /*contact css end*/
-.footer .footer-details .row{
-  gap: 15px;
+
+
+.footer-logo-text p {
+  padding-right: 20px;
+}
+
+.footer .footer-details .row .col-sm-6{
+  width: 50%;
+  padding-top: 20px;
 }
 .follow-us h4, .q-link-head h4 {
   padding: 0 0 0 20px;
@@ -2131,15 +2138,15 @@ align-items: center;
 
 
 .copyright-inner .copyright-text {
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
-.copyright-inner .copyright-text span a {
+.copyright-inner .copyright-text p a {
   font-size: 14px;
   font-weight: 500;
 }
 
-.copyright-inner .copyright-text span a:hover, .copyright-inner .copyright-text span a:focus{
+.copyright-inner .copyright-text p a:hover, .copyright-inner .copyright-text p a:focus{
   color: #eaf4ff;
 }
 

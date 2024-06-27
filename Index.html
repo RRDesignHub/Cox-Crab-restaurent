@@ -6,10 +6,9 @@
     <title>Cox's Crab</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
-    <!-- Include jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <!-- Include Isotope -->
-  <script src="https://cdn.jsdelivr.net/isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/isotope/3.0.6/isotope.pkgd.min.js"></script> -->
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
@@ -1153,6 +1152,17 @@
 
 <!--footer end-->
 
+
+<!--Back to top-->
+
+<div id="back-to-top" class="back-to-top">
+    <a href="#">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+  </div>
+  
+  
+  <!--Back to top-->
     <script src="Js/all.min.js"></script>
     <script src="Js/bootstrap.bundle.min.js"></script>
     <script src="Js/isotope.pkgd.min.js"></script>
@@ -1160,10 +1170,12 @@
     <script>
             $(document).ready(function () {
         // Initialize Isotope
-        var $grid = $('.item_details').isotope({
+        var $grid = $('.item_details .row').isotope({
             itemSelector: '.item',
-            layoutMode: 'fitRows'
+            layoutMode: 'masonry'
         });
+
+      
 
         // Filter items on button click
         $('.item-menu ul').on('click', 'li', function () {

@@ -8,6 +8,25 @@ window.addEventListener('scroll', function() {
   });
 
 
+  let backToTopButton = document.getElementById("back-to-top");
+
+
+  window.addEventListener("scroll", function() {
+    if (window.scrollY > 200) { // Adjust this value as needed
+      backToTopButton.classList.add("show");
+    } else {
+      backToTopButton.classList.remove("show");
+    }
+  });
+
+  backToTopButton.addEventListener("click", function(e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
 
 const myCarouselElement = document.querySelector('#carouselExampleControls');
 const carousel = new bootstrap.Carousel(myCarouselElement, {

@@ -810,7 +810,8 @@ background-repeat: no-repeat;
 }
 
 .item_details{
-  margin-left: 6rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .item_details .item img{
@@ -1355,6 +1356,58 @@ background-repeat: no-repeat;
   color: #a0cbff;
 }
 
+
+
+
+/*Back to top CSS start*/
+#back-to-top {
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+  cursor: pointer;
+  z-index: 9999999;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#back-to-top.show {
+  right: 15px;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+#back-to-top a{
+  background-color: #001735;
+  color: #eaf4ff;
+  padding: 13px 20px;
+text-decoration: none;
+font-size: 1.5rem;
+border-radius: 30% 30% 5% 5% ;
+display: block;
+width: 45px;
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+-webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+#back-to-top a:hover, #back-to-top a:focus, #back-to-top a:active {
+  background-color: #032d63;
+}
+
+
+/*Back to top CSS end*/
 
 
 
